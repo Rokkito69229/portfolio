@@ -16,7 +16,7 @@ menuToggle.setAttribute('aria-expanded', 'false');
 }
 
 
-// Smooth scroll for internal anchors
+
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
 a.addEventListener('click', function(e){
 const hash = this.getAttribute('href');
